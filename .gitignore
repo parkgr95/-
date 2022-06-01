@@ -1,0 +1,7 @@
+node_modules
+youha/output/
+youha/migrations/
+youha/__pycache__/
+soobiz/__pycache__/
+#react/__pycache__/
+#venv

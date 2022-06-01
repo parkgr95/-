@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    padding: 1rem;
+    color: white;
+    background-image: url('../img/home.jpg');
+    background-repeat: no-repeat;
+    background-size : cover;
+    
+    justify-content: space-between;
+  }
+  
+  
+  #servicename{
+    font-family: 'S-CoreDream-8Heavy';
+    text-align:center;
+    margin-top: 140px;
+    line-height: 80px;
+    font-size: 60px;
+    color : white;
+  }
+  
+  #servicedsc{
+    text-align:center;
+    font-size: 20px;
+    font-family: 'S-CoreDream-6Bold';
+  }
+  
+  #servicestart{
+    text-align:center;
+    font-size: 20px;
+    font-family: 'S-CoreDream-6Bold';
+    color:black;
+    background-color: white;
+    width: 120px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 45px;
+    border-radius: 5px;
+  }
+  
+  span {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav {
+    text-align: right;
+    font-size: 17px;
+    font-family: 'S-CoreDream-4Regular';
+  }
+  
+  #urlform {
+    border-style: solid; 
+    border-width: 2px 2px 2px 13px; 
+    padding: 12px; 
+    word-break: break-all;
+    border-color: #61380B;
+    margin-top: 120px;
+    width: 600px;
+    color: #61380B;
+    border-radius: 5px;
+    font-family: 'S-CoreDream-4Regular';
+  }
+  
+  #submit {
+    color: white;
+    margin-left: 10px;
+    border: 2px solid #61380B;
+    padding: 5px;
+    background-color: #61380B;
+    border-radius: 5px;
+    width: 70px;
+    height: 41px;
+    font-family: 'S-CoreDream-4Regular';
+  }
+  form{
+    text-align: center;
+  }
+  
+  
+  main {
+    padding: 1rem;
+    height: 100%;  
+  }
+  
+  body {
+    background: white;
+  }
+  
+  body, html {
+    height: 200%;
+  }
+  
+  td{
+    text-align: center;
+    
+  }
+  
+  #videoInfo{
+    font-family: 'S-CoreDream-6Bold';
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 300px;
+  }
+  
+  #twitchVideoInfo{
+    width:60%; 
+    height:100px; 
+    margin-right:auto;
+  }
+  
+  #LoginIdForm, #LoginPasswordForm, #SignupNameForm,#SignupIdForm, #SignupPasswordForm{
+    border-style: solid; 
+    border-width: 2px 2px 2px 2px; 
+    padding: 12px; 
+    word-break: break-all;
+    border-color: #61380B;
+    width: 300px;
+    color: #61380B;
+    border-radius: 5px;
+  }
+  
+  #SignupNameForm{
+    margin-top: 150px;
+  
+  }
+  
+  #LoginIdForm {
+    margin-top: 150px;
+    margin-left: 12px;
+  }
+  #SignupIdForm {
+    margin-left: 12px;
+  }
+  
+  
+  #loginButton, #signupButton{
+    color: white;
+    margin-top: 10px;
+    border: 2px solid #A4A4A4;
+    padding: 5px;
+    background-color: #A4A4A4;
+    border-radius: 5px;
+    width: 120px;
+    height: 41px;
+    text-align: center;
+    font-family: 'S-CoreDream-6Bold';  
+  }
+  label{
+    font-family: 'S-CoreDream-6Bold'; 
+    color : #61380B; 
+  }
+  
+  #navBar{
+    font-family: 'S-CoreDream-6Bold'; 
+  }
+  
+  #twitchVideo{
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  #MyInfo{
+    font-family: 'S-CoreDream-6Bold'; 
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 80px;
+    
+  }
+  
+  #recordtable{
+    text-align: center;
+    font-family: 'S-CoreDream-4Regular';
+  }
+
+  .streamerButton{
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+
+  }
+  
+  #MyId, #MyName{
+    font-size: 23px;
+  }
+  
+  #MyAnalysis{
+    font-family: 'S-CoreDream-6Bold'; 
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  
+  #chapterList, #statList, #chapter{
+    text-align: center;
+
+    
+  }
+  .ChapterButton{
+    color: white;
+    margin-top: 10px;
+    border: 2px solid #A4A4A4;
+    padding: 5px;
+    background-color: #A4A4A4;
+    border-radius: 5px;
+    width: 200px;
+    margin: 20px;
+    font-family: 'S-CoreDream-4Regular';  
+  }
+  
+  .viewButton{
+    color: white;
+
+    border: 2px solid #A4A4A4;
+    padding: 5px;
+    background-color: #A4A4A4;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    margin: 3px;
+
+    font-family: 'S-CoreDream-4Regular';  
+  }
+  #highlightResult{
+    text-align: center;
+    font-family: 'S-CoreDream-6Bold'; 
+    margin-top: 30px;
+  }
+
+  #highlightTable{
+    text-align: center;
+    width: 60%;
+
+    margin: auto;
+    font-family: 'S-CoreDream-4Regular'; 
+  }
+
+ 
+  #highlightdsc{
+    font-family: 'S-CoreDream-4Regular'; 
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  #searchdsc{
+    color : #61380B; 
+    font-family: 'S-CoreDream-4Regular'; 
+    text-align: center;
+  }
+
+  #selectdsc{
+    font-family: 'S-CoreDream-6Bold'; 
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #statcdsc{
+    font-family: 'S-CoreDream-6Bold'; 
+    font-size: 23px;
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  #stat_keyword{
+    text-align: center;
+    font-family: 'S-CoreDream-6Bold'; 
+    margin-top: 10px;
+  
+  }
+
+  #sentimentChart,#chatFlowChart,#audioFlowChart{
+    text-align: center;
+    font-family: 'S-CoreDream-4Regular'; 
+  }
+
+  #keywordChart{
+    text-align: center;
+    font-family: 'S-CoreDream-4Regular'; 
+  }
+
+  * {
+    box-sizing: border-box;
+  }
